@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping list</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
+    <link rel="stylesheet"  type="text/css" href="main.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="app.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="maindiv">
+      <form class="shoppinginput">
+        Shopping Items: 
+         <input type="text" id="sform">
+           <input type="button" id="addButton" value="Add Items"/>
+      </form>
+      <ul class="shoplist">
+      </ul>
+        <div class="guide">
+        <ol> **Instructions**
+          <li>Enter a item and click add item.</li>
+          <li>Click a item to cross it of your list.</li>
+          <li>Double Click on a item to remove it from your list.</li>
+          <li>Enjoy shopping and look for deals!</li>
+         </ol>  
+        </div>
+    </div> 
+  </body>
+</html>
