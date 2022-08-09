@@ -1,3 +1,2 @@
-# shoppinglist-jquery
+# Shopping list app using jquery 
 
-Shopping list app -  front end 
